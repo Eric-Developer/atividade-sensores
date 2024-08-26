@@ -15,7 +15,7 @@ export default function Movimentos() {
       const { x, y, z } = dadosAcelerometro;
       const aceleracao = Math.sqrt(x * x + y * y + z * z);
 
-      if (!estaMovendo && aceleracao > 1.2) {
+      if (!estaMovendo && aceleracao > 1.0) {
         setEstaMovendo(true);
         animarMovimento(true);
       } else if (estaMovendo && aceleracao < 1.0) {

@@ -1,8 +1,8 @@
 
-import Inicio from "../components/Inicio"
+import CadastroFilme from "../components/Inicio"
 export default function Home(){
 
     return(
-        <Inicio/>
+        <CadastroFilme/>
     )
 }
